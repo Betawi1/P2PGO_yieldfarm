@@ -24,12 +24,4 @@ const StyledAccountButton = styled.div``
 
 export default UniButton
 
-// <StyledAccountButton>
-//    {(
-//      <Button onClick={onPresentAccountModal} size="sm" text="Uniswap" />
-//    )}
-//  </StyledAccountButton>
-//)
-//}
 
-//const StyledAccountButton = styled.div``

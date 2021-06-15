@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import Container from '../Container'
 import Logo from '../Logo'
-
+import UniButton from './components/UniButton'
 import AccountButton from './components/AccountButton'
 import Nav from './components/Nav'
 
@@ -21,9 +21,12 @@ const TopBar: React.FC<TopBarProps> = ({ onPresentMobileMenu }) => {
             <Logo />
           </StyledLogoWrapper>
           <Nav />
-          <StyledAccountButtonWrapper>
-            <AccountButton />
-          </StyledAccountButtonWrapper>
+            <StyledLogoWrapper>
+              <UniButton />
+            </StyledLogoWrapper>
+            <StyledLogoWrapper>
+              <AccountButton />
+            </StyledLogoWrapper>         
         </StyledTopBarInner>
       </Container>
     </StyledTopBar>
